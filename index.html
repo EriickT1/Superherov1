@@ -9,12 +9,37 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1"><img class= navimg src="assets/img/sh2.jpg">SuperHero</span>
-        </div>
-      </nav>
+  <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1"><img class= navimg src="assets/img/sh2.jpg">SuperHero</span>
+      </div>
+  </nav>
+
+  <header class="text-center container w-50" >
+    <img src="assets/img/sh1.jpg" id="imgheader">
+    <h1 class="text-start mt-4">Encuentra a tu SuperHero</h1>
+    <p class="text-start">Ingresa el número a buscar</p>
+    <form>
+      <input class="form-control" placeholder="Ingresa un número entre 1 y 731 para ver a tu heroe" id="heroInput">
+      <button class="btn btn-primary mt-2">Buscar</button>
+    </form>
+  </header>
+
+  <section>
+    <div class="row container">
+
+      <div class="col-6" id="infoContainer"></div>
+
+      <div class="col-6" id="chartContainer"></div>
+
+    </div>
+  </section>
+
+  
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
